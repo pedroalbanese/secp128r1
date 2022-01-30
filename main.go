@@ -1,5 +1,3 @@
-// CC0 1.0 Universal
-
 package secp128r1
 
 import "crypto/elliptic"
@@ -21,8 +19,5 @@ var secp128r1 = &elliptic.CurveParams{
 	Name: "secp128r1",
 }
 
-// Secp128() returns a Curve which implements Secp128r1
+// Secp128r1() returns a Curve which implements Secp128r1
 func Secp128r1() elliptic.Curve { return secp128r1 }
-
-
-
