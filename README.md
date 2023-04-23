@@ -5,21 +5,21 @@ A randomly generated curve. [SEC2v1](https://www.secg.org/SEC2-Ver-1.0.pdf) stat
 
 ```
                   +---------------------------+
-                  |        Private Key         |
+                  |        Private Key        |
                   +---------------------------+
                              |
                              | Private Key Operations
                              |
                              v
                   +---------------------------+
-                  |     Signing Algorithm      |
+                  |     Signing Algorithm     |
                   +---------------------------+
                              |
                              | Signature
                              |
                              v
                   +---------------------------+
-                  |        Signature           |
+                  |        Signature          |
                   +---------------------------+
                              |
                              | Public Key Operations
