@@ -51,14 +51,14 @@ ECDH:
            Q_A = d_A * G              Q_B = d_B * G
               |                           |
               v                           v
-     ----- Begin Key Exchange Phase -----
+           ----- Begin Key Exchange Phase -----
               |                           |
               v                           v
            compute shared secret:     compute shared secret:
            S_A = d_A * Q_B            S_B = d_B * Q_A
               |                           |
               v                           v
-     ----- End Key Exchange Phase -----
+            ----- End Key Exchange Phase -----
               |                           |
               v                           v
             (S_A)                       (S_B)
